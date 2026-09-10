@@ -1,5 +1,7 @@
 USE CSE_3A_128
 
+--From the table STUDENT perform the following queries:
+SELECT * FROM STUDENT
 
 --1. INSERT Procedures: Create stored procedures to insert records into STUDENT tables
 --(SP_INSERT_STUDENT)
@@ -131,6 +133,9 @@ END
 EXEC SP_TOP_5_STUDENTS
 
 
+
+--From the table EMPLOYEE perform the following queries:
+SELECT * FROM EMPLOYEE
 
 --7. Create a stored procedure which displays all employee details.
 
